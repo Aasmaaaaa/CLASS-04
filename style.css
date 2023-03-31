@@ -34,12 +34,12 @@ body > section {
 }
 
 section section {
-  border: 2px solid purple;
+  border: 2px solid black;
   background-color: lavender;
 }
 
 section section div {
-  border: 2px solid blue;
+  border: 2px solid red;
   background-color: azure;
   padding: 1rem;
   margin: 1rem;
@@ -51,4 +51,26 @@ section section div {
 
 .inline div {
   display: inline;
+}
+
+.inline-block div {
+  display: inline-block;
+}
+
+.float-right div {
+  float: right;
+}
+
+.together {
+  font-size: 1.2rem;
+}
+
+.span-inline {
+  color: red;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
